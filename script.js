@@ -10,9 +10,7 @@ document.getElementById('student-form').addEventListener('submit', function (eve
             gender = genderElements[i].value;
             break;
         }
-     else {
-         alert("check gender")
-      }
+     
      }
    // var gender = document.querySelector('input[name="gender"]:checked');
     // if (gender) {
