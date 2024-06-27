@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D1FAE5;
+}
+
+table,
+tr,
+td,
+th {
+    border: solid 1px black;
+    padding: 2px;
+}
+
+#btn {
+    width: 100%;
+    background-color: red;
+    color: black;
+    border: solid 1px black;
+    padding: 5px 0px;
+}
+
+#btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+}
+
+select {
+    width: 100%;
+}
+
+.inputtable {
+    margin-top: 20px;
+}
+
+.detailtable {
+    margin-top: 40px;
+}
+
+td {
+    padding: 3px;
+}
+
+th {
+    padding: 5px;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+}
