@@ -20,6 +20,13 @@ document.getElementById('student-form').addEventListener('submit', function (eve
     // }
 
     var course = document.getElementById('select').value;
+    var checkElements = document.getElementsByName('check');
+    var languages = [];
+    for (var i = 0; i < checkElements.length; i++) {
+        if (checkElements[i].checked) {
+            languages.push(checkElements[i].value);
+        }
+    }
     var email = document.getElementById('email').value;
 
     var row = document.createElement('tr');
@@ -27,6 +34,7 @@ document.getElementById('student-form').addEventListener('submit', function (eve
         <td>${name}</td>
         <td>${age}</td>
         <td>${course}</td>
+        <td>${languages.join(', ')}</td>
         <td>${gender}</td>
         <td>${email}</td>
         <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
@@ -40,6 +48,10 @@ document.getElementById('student-form').addEventListener('submit', function (eve
     var genderElements = document.getElementsByName('gender');
     for (var i = 0; i < genderElements.length; i++) {
         genderElements[i].checked = false;
+    }
+    var checkElements = document.getElementsByName('check');
+    for (var i = 0; i < checkElements.length; i++) {
+        checkElements[i].checked = false;
     }
     document.getElementById('email').value = '';
 });
