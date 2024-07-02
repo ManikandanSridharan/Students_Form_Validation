@@ -18,11 +18,18 @@
                 <tr>
                     <th>NAME</th>
                     <td><input type="text" name="" id="name" placeholder="ENTER YOUR NAME"></td>
+                    <td class="errormessage">
+                        <span class="nameError error">Name must contain only letters</span>
+                    </td>
+
                 </tr>
 
                 <tr>
                     <th>AGE</th>
                     <td><input type="text" name="" id="age" placeholder="ENTER YOUR AGE"></td>
+                    <td class="errormessage">
+                        <span class="ageError error">Age must contain two digits</span>
+                    </td>
                 </tr>
 
                 <tr>
@@ -31,6 +38,9 @@
                         <input type="radio" name="gender" value="Male" class="gender">Male
                         <input type="radio" name="gender" value="Female" class="gender">Female
                     </td>
+                    <td class="errormessage">
+                        <span class="genderError error">Select a gender</span>
+                    </td>
                 </tr>
 
                 <tr>
@@ -38,11 +48,15 @@
                     <td>
 
                         <select name="" id="select">
+                            <option value="">Select a course</option>
+                            <!-- reason:value can give blank means , empty value will shown in front end: -->
                             <option value="JAVASCRIPT">JAVASCRIPT</option>
                             <option value="HTML">HTML</option>
                             <option value="SQL">SQL</option>
-
                         </select>
+                    </td>
+                    <td class="errormessage">
+                        <span class="courseError error">Select a course</span>
                     </td>
                 </tr>
 
@@ -53,11 +67,25 @@
                         <input type="checkbox" name="check" value="English">English
                         <input type="checkbox" name="check" value="Hindi">Hindi
                     </td>
+                    <td class="errormessage">
+                        <span class="languageError error">Select at least one language</span>
+                    </td>
                 </tr>
 
                 <tr>
                     <th>EMAIL</th>
                     <td><input type="text" name="" id="email" placeholder="ENTER YOUR MAIL"></td>
+                    <td class="errormessage">
+                        <span class="emailError error">Please provide a valid email address</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Phone number</th>
+                    <td><input type="text" name="" id="phonenumber" placeholder="ENTER YOUR Phone number"></td>
+                    <td class="errormessage">
+                        <span class="phoneError error">Phone Number Must contains only 10 digits</span>
+                    </td>
                 </tr>
 
                 <tr>
@@ -67,6 +95,7 @@
             </table>
         </form>
     </div>
+
 
     <!-- Details table -->
     <table class="detailtable">
@@ -78,6 +107,7 @@
                 <th>Language</th>
                 <th>Gender</th>
                 <th>Email</th>
+                <th>Phone Number</th>
                 <th>Action</th>
             </tr>
         </thead>

@@ -54,6 +54,7 @@ select {
 
 td {
     padding: 3px;
+    position: relative;
 }
 
 th {
@@ -68,4 +69,18 @@ th {
 
 .delete-btn:hover {
     cursor: pointer;
+}
+
+.inputtable .error {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    display: none;
+    /* Hide by default, you can show it with JavaScript when there's an error */
+
+}
+
+.errormessage {
+    border: none;
 }
