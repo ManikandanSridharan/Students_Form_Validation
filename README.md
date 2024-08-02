@@ -1,5 +1,5 @@
 # Students_Form_Validation
-Welcome to the Student Form Validation project! This tool is designed to ensure that student registration forms are filled out correctly and completely. It features real-time validation to enhance data accuracy and user experience. Built using HTML, CSS, and Java, it offers an interactive and efficient validation process.
+Welcome to the Student Form Validation project! This tool is designed to ensure that student registration forms are filled out correctly and completely. It features real-time validation to enhance data accuracy and user experience. Built using HTML, CSS, and JavaScript, it offers an interactive and efficient validation process.
 
 # Features
 **Real-Time Validation:** Instantly checks the accuracy of input fields such as name, email, and contact number, providing immediate feedback to users.
@@ -9,7 +9,7 @@ Welcome to the Student Form Validation project! This tool is designed to ensure 
 # Technologies Used
 **HTML:** Provides the structure of the form, ensuring clear and accessible input fields.
 **CSS:** Enhances the visual design and layout, improving the user experience with a clean and organized interface.
-**Java:** Manages interactive features and dynamic validation, ensuring that the form responds effectively to user inputs.
+**JavaScript:** Manages interactive features and dynamic validation, ensuring that the form responds effectively to user inputs.
 
 # How to View
 Explore the Student Form Validation project by visiting  https://manikandansridharan.github.io/Students_Form_Validation/. Test out the form and see how real-time validation improves user input accuracy.
