@@ -12,7 +12,7 @@ Welcome to the Student Form Validation project! This tool is designed to ensure 
 **Java:** Manages interactive features and dynamic validation, ensuring that the form responds effectively to user inputs.
 
 # How to View
-Explore the Student Form Validation project by visiting [Your GitHub Repository URL]. Test out the form and see how real-time validation improves user input accuracy.
+Explore the Student Form Validation project by visiting  https://manikandansridharan.github.io/Students_Form_Validation/. Test out the form and see how real-time validation improves user input accuracy.
 
 # Contributing
 We welcome contributions to enhance the functionality and usability of this form validation tool. If you have suggestions or improvements, please fork this repository, make your changes, and submit a pull request.
